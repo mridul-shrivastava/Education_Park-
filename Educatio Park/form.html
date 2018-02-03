@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>FORM</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+<style type="text/css">
+.contact-field {
+    padding: 100px 0 70px;
+}
+.irs-textarea {
+    height: 40% !important;
+    resize: none;
+}
+.contact-col {
+    margin-bottom: 30px;
+}
+.contact-field .form-control {
+    height: 40px;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+
+.contact-field {
+    padding: 100px 0 70px;
+}
+.contact-field .contact-col {
+    margin-bottom: 30px;
+}
+
+
+.contact-col .form-control {
+    background: transparent;
+    border: 1px solid #C1C1C1;
+    border-radius: 0;
+    height: 40px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    box-shadow: none;
+}
+.contact-field .contact-col h4 {
+    font-size: 18px;
+    color: #464646;
+    margin-bottom: 20px;
+}
+
+.big-btn {
+    background-color: #F4A460;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: none;
+    padding: 15px 50px;
+    box-shadow: none;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.big-btn:hover {
+    color: #ffffff;
+    background: #ea8e40;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+ 
+</style>
+</head>
+<body>
+    <section class="contact-field">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6">
+                    <div class="contact-col">
+                        <div class="row">
+                            <form id="contact_form" name="contact_form">
+                                <div class="col-md-6">
+                                    <input id="form_name" name="form_name" class="form-control" placeholder="Name*" required="required" data-error="Name is required." type="text">
+                                </div>
+                                <div class="col-md-6">
+                                    <input id="form_email" name="form_email" class="form-control" placeholder="Email*" required="required" data-error="Email is required." type="text">
+                                </div>
+                                <div class="col-md-12">
+                                    <input id="form_subject" name="form_subject" class="form-control" placeholder="Subject*" required="required" data-error="Subject is required." type="text">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea id="form_message" name="form_message" class="form-control irs-textarea" rows="12" placeholder="Comment*" required="required" data-error="Message is required."></textarea>
+                                    <button class="btn btn-default big-btn" type="submit">send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+</body>
+</html>
